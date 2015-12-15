@@ -1,12 +1,17 @@
-.. pinguindocs documentation master file, created by
-   sphinx-quickstart on Tue Dec 15 22:44:44 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to pinguindocs's documentation!
+**PinguinDocs's documentation!
 =======================================
 
-Contents:
+
+.. image:: /images/cnc.png
+    :width: 200px
+    :height: 100px
+
+.. sidebar:: About
+
+* **Official site**: `<http://labcnc.com>`_
+* **Twitter**: `<http://twitter.com/cnc_laboratory>`_
+* **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
 
 .. toctree::
    :maxdepth: 2
