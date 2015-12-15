@@ -16,7 +16,8 @@
 .. toctree::
    :maxdepth: 2
 
-
+   chapter01
+   chapter03
 
 Indices and tables
 ==================
