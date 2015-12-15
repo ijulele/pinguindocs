@@ -15,6 +15,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
 
    chapter01
    chapter03
