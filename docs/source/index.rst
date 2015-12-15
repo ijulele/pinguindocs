@@ -1,5 +1,5 @@
 
-**CnC Documentation!**
+**CnC Documentation**
 ================================
 
 
