@@ -2,6 +2,12 @@
 **CnC Documentation**
 ================================
 
+Cnc is a laboratory, located in Bandung, Indonesia.
+Divided into three division :
+
+ - Networking
+ - Operating System
+ - Web Programming
 
 .. image:: /images/cnc.png
     :width: 200px
@@ -17,8 +23,9 @@
    :maxdepth: 2
    :hidden:
 
-   chapter01
-   chapter03
+   networking
+   os
+   web
 
 Indices and tables
 ==================
