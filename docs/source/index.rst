@@ -1,6 +1,6 @@
 
-**PinguinDocs's documentation!
-=======================================
+**PinguinDocs's documentation!**
+================================
 
 
 .. image:: /images/cnc.png
@@ -9,9 +9,9 @@
 
 .. sidebar:: About
 
-* **Official site**: `<http://labcnc.com>`_
-* **Twitter**: `<http://twitter.com/cnc_laboratory>`_
-* **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
+    * **Official site**: `<http://labcnc.com>`_
+    * **Twitter**: `<http://twitter.com/cnc_laboratory>`_
+    * **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
 
 .. toctree::
    :maxdepth: 2
