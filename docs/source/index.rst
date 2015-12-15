@@ -9,7 +9,7 @@
 
 .. sidebar:: About
 
-    * **Official site**: `<http://labcnc.com>`_
+    * **Official site**: `<http://labcnc.com>`_ `<http://pinguin.telkomuniversity.ac.id>`_
     * **Twitter**: `<http://twitter.com/cnc_laboratory>`_
     * **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
 
