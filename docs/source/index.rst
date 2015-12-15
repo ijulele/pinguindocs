@@ -1,5 +1,5 @@
 
-**PinguinDocs's documentation!**
+**PinguinDocs's Documentation!**
 ================================
 
 
