@@ -1,5 +1,5 @@
-FTP Server
-==========
+File Transfer Protocol (FTP) 
+============================
 
 .. sidebar:: Documented by :
 
