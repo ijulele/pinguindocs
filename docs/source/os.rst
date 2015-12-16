@@ -10,3 +10,5 @@ This section contain documents about Operating System
    ftpserver
    dns
    owncloud
+   livemigration
+   load-balancing
