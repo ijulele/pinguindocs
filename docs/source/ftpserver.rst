@@ -5,5 +5,5 @@ FTP or File Transfer Protocol is TCP based service. We use FTP to upload or down
 
 In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp server.
 
-.. code:: apt-get update
+.. example:: apt-get update
    
