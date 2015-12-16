@@ -51,7 +51,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 
 	  sudo chown cnc:cnc /home/cnc/ftp
 
-Now you can access your ftp server by opening your web browser and type ftp://(your ftp server ip)
+Now you can access your ftp server by opening your web browser and type ftp:// (your ftp server ip)
 
 .. note::
 
