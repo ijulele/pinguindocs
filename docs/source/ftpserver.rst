@@ -55,4 +55,4 @@ Now you can access your ftp server by opening your web browser and type ftp://(y
 
 .. note::
 
-Login using username and password we set before
+		Login using username and password that we set before
