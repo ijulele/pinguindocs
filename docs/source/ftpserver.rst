@@ -42,7 +42,7 @@ Find these parameters and set them like this
 
       chroot_local_user=YES
 
-- Changing ownership
+- Changing ownership root for cnc directory
 ::
 
 	  sudo chown root:root /home/cnc
@@ -52,12 +52,18 @@ Find these parameters and set them like this
 
 	  sudo mkdir /home/cnc/ftp
 
-- Changing ownership
+- Granting access to user cnc that we created before to access ftp directory
 ::
 
 	  sudo chown cnc:cnc /home/cnc/ftp
+- For a test, create a txt file named 1.txt inside  /ftp directory, and write as you like, mine was "This is just a test"
+::
+
+	  nano /home/cnc/ftp/1.txt
+.. image:: images/text.png
 
 Now you can access your ftp server by opening your web browser and type ftp:// (your ftp server ip)
+.. image:: images/result.png
 
 .. note::
 
