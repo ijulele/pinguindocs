@@ -20,6 +20,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
       adduser cnc
+.. image:: /images/cnc.png
 
 - Edit configuration file
 ::
@@ -39,14 +40,17 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 
       chroot_local_user=YES
 
+- Changing ownership
 ::
 
 	  sudo chown root:root /home/cnc
 
+- Creating directory for ftp files
 ::
 
 	  sudo mkdir /home/cnc/ftp
 
+- Changing ownership
 ::
 
 	  sudo chown cnc:cnc /home/cnc/ftp
