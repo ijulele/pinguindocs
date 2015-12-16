@@ -15,3 +15,13 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
       apt-get install vsftpd
+
+- Add user id & password to access ftp
+::
+
+      adduser cnc
+
+- Edit configuration file
+::
+
+      nano /etc/vsftpd.conf
