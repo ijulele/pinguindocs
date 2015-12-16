@@ -25,9 +25,18 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
       nano /etc/vsftpd.conf
+
+::
+
       anonymous_enable=NO
+::
+
       local_enable=YES
+::
+
       write_enable=YES
+::
+
       chroot_local_user=YES
 
 ::
@@ -35,12 +44,15 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 	  sudo chown root:root /home/cnc
 
 ::
+
 	  sudo mkdir /home/cnc/ftp
 
 ::
+
 	  sudo chown cnc:cnc /home/cnc/ftp
 
 Now you can access your ftp server by opening your web browser and type ftp://(your ftp server ip)
 
 .. note::
+
 Login using username and password we set before
