@@ -3,7 +3,7 @@ FTP Server
 
 .. sidebar:: Documented by :
 
-     * **Code Name**: NDA
+     * **Code Name**    : NDA
 	 * **Date** 	: 12/17/2015
 	 * **Mail** 	: naufal.itt@gmail.com
 
