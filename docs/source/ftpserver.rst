@@ -20,7 +20,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
       adduser cnc
-.. image:: /images/adduser.JPG
+.. image:: /images/adduser.png
 
 - Edit configuration file
 ::
