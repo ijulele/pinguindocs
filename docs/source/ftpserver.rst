@@ -5,7 +5,10 @@ FTP or File Transfer Protocol is TCP based service. We use FTP to upload or down
 
 In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp server.
 
+- root access
+::
 
+	  sudo su
 - Re-synchronize the package index files from sources 
 ::
 
@@ -28,7 +31,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
       nano /etc/vsftpd.conf
 .. image:: /images/vsftpd.png
 
-Find these parameters and set them like this
+- Find these parameters and set them to :
 ::
 
       anonymous_enable=NO
