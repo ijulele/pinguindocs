@@ -25,7 +25,7 @@ Divided into three division :
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
 
    networking

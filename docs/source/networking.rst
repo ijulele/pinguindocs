@@ -4,7 +4,7 @@ Networking
 This section contain networking documents
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 9
    :hidden:
 
    basicospf

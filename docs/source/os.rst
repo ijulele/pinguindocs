@@ -4,7 +4,7 @@ Operating System
 This section contain documents about Operating System
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 9
    :hidden:
 
    ftpserver
