@@ -4,7 +4,7 @@ Networking
 This section contain networking documents
 
 .. toctree::
-   :maxdepth: 9
+   :maxdepth: 20
    :hidden:
 
    basicospf
@@ -16,3 +16,4 @@ This section contain networking documents
    vrrp
    glbp
    multicast
+   vlan
