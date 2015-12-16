@@ -65,7 +65,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 	  nano /home/cnc/ftp/1.txt
 .. image:: images/text.png
 
-Now you can access your ftp server by opening your web browser and type ftp:// (your ftp server ip)
+- Now you can access your ftp server by opening your web browser and type ftp:// (your ftp server ip)
 
 .. image:: images/result.png
 
