@@ -9,10 +9,10 @@
     * **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
 
 .. image:: /images/cnc.png
-    :width: 200px
+    :width: 150px
     :height: 100px
 .. image:: /images/sm.png
-    :width: 200px
+    :width: 150px
     :height: 100px
 
 
