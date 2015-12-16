@@ -74,4 +74,6 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 		Login using username and password that we set before
 
 **Sources :**
- * `<http://www.dedeerik.com/cara-install-dan-konfigurasi-ftp-server-di-ubuntu-vsftpd/>`_
+ - `<http://www.dedeerik.com/cara-install-dan-konfigurasi-ftp-server-di-ubuntu-vsftpd/>`_
+ - `<https://help.ubuntu.com/community/vsftpd>`_
+ - `<http://www.slacksite.com/other/ftp.html>`_
