@@ -8,3 +8,7 @@ This section contain networking documents
    :hidden:
 
    basicospf
+   ns2
+   dhcp
+   rip
+   static

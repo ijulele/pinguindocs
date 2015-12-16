@@ -8,3 +8,5 @@ This section contain documents about Operating System
    :hidden:
 
    ftpserver
+   dns
+   owncloud
