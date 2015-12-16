@@ -22,9 +22,9 @@ Cnc is a laboratory, located in Bandung, Indonesia.
 
 Divided into three division :
 
- - Networking
- - Operating System
- - Web Programming
+- Networking
+- Operating System
+- Web Programming
 
 
 
