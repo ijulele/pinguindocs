@@ -1,6 +1,6 @@
 
 **CnC Documentation**
-================================
+=====================
 
 .. image:: /images/cnc.png
     :width: 200px
