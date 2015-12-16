@@ -4,9 +4,9 @@
 
 .. sidebar:: About
 
-    * **Official site**: `<http://pinguin.telkomuniversity.ac.id>`_
-    * **Twitter**: `<http://twitter.com/cnc_laboratory>`_
-    * **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
+  * **Official site**: `<http://pinguin.telkomuniversity.ac.id>`_
+  * **Twitter**: `<http://twitter.com/cnc_laboratory>`_
+  * **Mailing list**: lab.cnc203@gmail.com naufal.itt@gmail.com 
 
 .. image:: /images/cnc.png
     :width: 150px
