@@ -6,7 +6,7 @@ This section contain documents about Web Programming
     :width: 200px
     :height: 400px
 
-.. image:: /images/spcweb2015.png
+.. image:: /images/spcweb2015.jpg
     :width: 200px
     :height: 400px
 
