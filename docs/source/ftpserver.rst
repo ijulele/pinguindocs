@@ -59,13 +59,14 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
 	  sudo chown cnc:cnc /home/cnc/ftp
-- For a test, create a txt file named 1.txt inside  /ftp directory, and write as you like, mine was "This is just a test"
+- For a test, create a txt file named 1.txt inside  /ftp directory, and write as you like, mine was "This is just a test!"
 ::
 
 	  nano /home/cnc/ftp/1.txt
 .. image:: images/text.png
 
 Now you can access your ftp server by opening your web browser and type ftp:// (your ftp server ip)
+
 .. image:: images/result.png
 
 .. note::
