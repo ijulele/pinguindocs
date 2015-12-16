@@ -25,3 +25,4 @@ This section contain networking documents
    glbp
    multicast
    vlan
+   mpls
