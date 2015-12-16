@@ -12,3 +12,7 @@ This section contain networking documents
    dhcp
    rip
    static
+   hsrp
+   vrrp
+   glbp
+   multicast

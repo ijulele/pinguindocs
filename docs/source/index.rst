@@ -5,6 +5,10 @@
 .. image:: /images/cnc.png
     :width: 200px
     :height: 100px
+.. image:: /images/sm.png
+    :width: 200px
+    :height: 100px
+
 
 .. sidebar:: About
 
