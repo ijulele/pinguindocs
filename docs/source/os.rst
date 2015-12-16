@@ -27,3 +27,4 @@ This section contain documents about Operating System
    opennebula
    openstack
    webserver
+   ntp
