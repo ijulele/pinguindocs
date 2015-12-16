@@ -26,6 +26,7 @@ In this documentation we use Ubuntu 14.04 as operating system, and vsftpd as ftp
 ::
 
       nano /etc/vsftpd.conf
+.. image:: /images/vsftpd.png
 
 ::
 
