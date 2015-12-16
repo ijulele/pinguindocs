@@ -2,12 +2,10 @@ FTP Server
 ==========
 
 .. sidebar:: Documented by :
-:CodeName:
-	NDA
-:Date:
-	12/17/2015
-:mail:
-	naufal.itt@gmail.com
+
+**CodeName**	: NDA
+**8ate** 		: 12/17/2015
+**Mail** 		: naufal.itt@gmail.com
 
 FTP or File Transfer Protocol is TCP based service. We use FTP to upload or download their files to server. By default FTP use 2 ports, which is port 20 and 21. Port 21 for "command port" and port 20 for "data port".
 
