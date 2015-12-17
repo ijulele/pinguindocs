@@ -20,22 +20,22 @@ In this documentation we use Cisco Packet Tracer for documentation
 - First, create this topology in your Cisco Packet Tracer
 .. image:: images/vlan1.png
 
-- Set PC ip address to :
-::
+Set PC ip address to :
 
-	PC0 ip address
+
+	- PC0 ip address
 .. image:: images/pc0.png
-::
 
-	PC1 ip address
+
+	- PC1 ip address
 .. image:: images/pc1.png
-::
 
-	PC2 ip address
+
+	- PC2 ip address
 .. image:: images/pc2.png
-::
 
-	PC3 ip address
+
+	- PC3 ip address
 .. image:: images/pc3.png
 
 - Do ping to check reachability
@@ -48,27 +48,23 @@ After we make sure that they can ping each other, now we make configuration on s
 - Enable
 ::
 
-	en
+	Switch> en
 .. image:: 
 
 - Configuration mode
 ::
 
 	Switch# conf
-	
 
 - Create VLAN 2 (becasue VLAN 1 already created by default)
 ::
 
 	Switch(config)# VLAN 2
 
-
 - Name your VLAN 2
 ::
 
 	Switch(config-vlan)# name example
-
-
 
 
 - Make PC3 into VLAN 2 group
@@ -87,7 +83,7 @@ After we make sure that they can ping each other, now we make configuration on s
 
 .. note::
 
-		Look carefully at your interface, it might be different
+		Look carefully at your interface, it might be different with this example
 
 - Now try to ping PC in different VLAN-ID, it should be failed.
 
