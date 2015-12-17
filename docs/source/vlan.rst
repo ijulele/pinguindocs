@@ -64,7 +64,7 @@ After we make sure that they can ping each other, now we make configuration on s
 - Name your VLAN 2
 ::
 
-	Switch(config-vlan)#name example
+	Switch(config-vlan)# name example
 	S
 
 - Make PC3 into VLAN 2 group
@@ -81,6 +81,10 @@ After we make sure that they can ping each other, now we make configuration on s
 	Switch(config-if)# switchport mode access
 	Switch(config-if)# switchport access vlan 2
 
+- Make PC3 into VLAN 2 group
+::
+
+	Switch(config)#	int f2/1
 
 .. note::
 
