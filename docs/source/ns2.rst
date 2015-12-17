@@ -21,18 +21,62 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 	sudo su
 
+- Re-synchronize the package index files from sources 
+::
+
+      apt-get update	
+
+
+
 **2. NS 2.34**
 *************
+
+- Root access
 ::
 
 	sudo su
 
+- Re-synchronize the package index files from sources 
+::
+
+      apt-get update	
+
+
 **3. NS 2.33**
 *************
+
+- Root access
+::
+
+	sudo su
+
+- Re-synchronize the package index files from sources 
+::
+
+      apt-get update	
 
 **4. NS 2.32**
 *************
 
+- Root access
+::
+
+	sudo su
+
+- Re-synchronize the package index files from sources 
+::
+
+      apt-get update	
+
 **5. NS 2.31**
 *************
 
+- Root access
+::
+
+	sudo su
+
+- Re-synchronize the package index files from sources 
+::
+
+      apt-get update	
