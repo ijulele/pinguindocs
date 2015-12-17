@@ -476,11 +476,11 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 - Extract the tar.gz file
 ::
 
-  tar -xvf ns-allinone-2.34.tar.gz 
+  tar -xvf ns-allinone-2.31.tar.gz 
 
 .. note::
 
-    Check the directory which ns-allinone-2.34.tar.gz downloaded 
+    Check the directory which ns-allinone-2.31.tar.gz downloaded 
 
 - Install packages
 ::
@@ -492,7 +492,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 - Open file in otcl-1.13/configure
 ::
 
-  nano +6304 /home/cnc/ns-allinone-2.34/otcl-1.13/configure
+  nano +5516 /home/cnc/ns-allinone-2.31/otcl-1.13/configure
 
 - Replace SHLIB_LD="ld -shared" into SHLIB_LD="gcc -shared"
 
@@ -501,7 +501,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 - Move to ns2 directory
 ::
   
-  cd /home/cnc/ns-allinone-2.34 
+  cd /home/cnc/ns-allinone-2.31 
 
 .. note::
 
@@ -514,7 +514,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 - When the installation succed it will be like this
 
-.. image:: images/ns234.png
+.. image:: images/ns231.png
 
 - Edit bashrc
 ::
