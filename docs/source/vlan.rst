@@ -65,6 +65,7 @@ After we make sure that they can ping each other, now we make configuration on s
 ::
 
    Switch(config)# VLAN 2 
+   ASD# SD
 
 - Name your VLAN 2
 ::
