@@ -264,36 +264,8 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
   nano tk-8.4-lastevent.patch
 
 - Patch for NAM from https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-lang/tk/files/tk-8.4-lastevent.patch?revision=1.1. Paste and save the code below to tk-8.4-lastevent.patch that we just created
-::
 
-  Source: Jeffrey Gardner (je_fro) <jeffrey.e.gardner@comcast.net> - http://overlays.gentoo.org/dev/je_fro/browser/dev-lang/tk/files/tk-8.4-lastevent.patch
-Upstream: N/A
-Reason: Fix ABI incompatibility introduced by x11-proto/xproto-7.0.13 (bug #225999)
---- generic/tk.h.orig 2008-02-06 16:31:40.000000000 +0100
-+++ generic/tk.h  2008-07-24 08:21:46.000000000 +0200
-@@ -635,17 +635,15 @@
-  *
-  *---------------------------------------------------------------------------
-  */
--#define VirtualEvent     (LASTEvent)
--#define ActivateNotify     (LASTEvent + 1)
--#define DeactivateNotify    (LASTEvent + 2)
--#define MouseWheelEvent     (LASTEvent + 3)
--#define TK_LASTEVENT     (LASTEvent + 4)
-+#define VirtualEvent     (MappingNotify + 1)
-+#define ActivateNotify     (MappingNotify + 2)
-+#define DeactivateNotify    (MappingNotify + 3)
-+#define MouseWheelEvent     (MappingNotify + 4)
-+#define TK_LASTEVENT     (MappingNotify + 5)
- 
- #define MouseWheelMask     (1L << 28)
--
- #define ActivateMask     (1L << 29)
- #define VirtualEventMask    (1L << 30)
--#define TK_LASTEVENT     (LASTEvent + 4)
- 
- 
- /*
+.. image:: images/ns233tk.png   
   
 - To apply the patch
 ::
