@@ -155,7 +155,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 - Move to ns2 directory
 ::
   
-  cd /home/cnc/ns-allinone-2.35 
+  cd /home/cnc/ns-allinone-2.34 
 
 .. image:: images/ns5.png
 
@@ -208,13 +208,14 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
   ns-ver
 
+.. image:: images/ns234ver.png
 
 - Download and run simple script from http://nile.wpi.edu/NS/Example/ns-simple.tcl
 ::
 
   ns ns-simple.tcl
 
-
+.. image:: images/ns234nam.png
 
 **3. NS 2.33**
 *************
