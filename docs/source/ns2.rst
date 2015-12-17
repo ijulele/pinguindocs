@@ -94,10 +94,12 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 - check ns-ver
 ::
+
   ns
+
   ns-ver
 
-.. image:: images/ns6.png
+.. image:: images/ns6.PNG
 
 - Download and run simple script from http://nile.wpi.edu/NS/Example/ns-simple.tcl
 ::
