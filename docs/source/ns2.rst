@@ -24,7 +24,91 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 - Re-synchronize the package index files from sources 
 ::
 
-      apt-get update	
+  apt-get update
+
+- Extract the tar.gz file
+::
+
+  tar -xvf ns-allinone-2.35.tar.gz 
+
+.. note::
+
+    Check the directory which ns-allinone-2.35.tar.gz downloaded 
+
+- Install packages
+::
+
+  sudo apt-get install build-essential autoconf automake libxmu-dev
+
+.. image:: images/ns2.png
+
+
+- Move to ns2 directory
+::
+  
+  cd /home/cnc/ns-allinone-2.35 
+
+.. image:: images/ns5.png
+
+.. note::
+
+    Check your own path, in this documentation we use /home/cnc/ 
+
+- Install ns2
+::
+
+  ./install
+
+- When the installation succed it will be like this
+
+.. image:: images/ns3/png
+
+- Edit bashrc
+::
+
+  nano ~/.bashrc
+
+- Add this to bashrc
+::
+
+  # LD_LIBRARY_PATH
+  OTCL_LIB=/home/cnc/ns-allinone-2.35/otcl-1.14
+  NS2_LIB=/home/cnc/ns-allinone-2.35/lib
+  X11_LIB=/usr/X11R6/lib
+  USR_LOCAL_LIB=/usr/local/lib
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$OTCL_LIB:$NS2_LIB:$X11_LIB:$USR_LOCAL_LIB
+  # TCL_LIBRARY
+  TCL_LIB=/home/cnc/ns-allinone-2.35/tcl8.5.10/library
+  USR_LIB=/usr/lib
+  export TCL_LIBRARY=$TCL_LIB:$USR_LIB
+  # PATH
+  XGRAPH=/home/cnc/ns-allinone-2.35/bin:/home/cnc/ns-allinone-2.35/tcl8.5.10/unix:/home/cnc/ns-allinone-2.35/tk8.5.10/unix
+  NS=/home/cnc/ns-allinone-2.35/ns-2.35/
+  NAM=/home/cnc/ns-allinone-2.35/nam-1.15/
+  PATH=$PATH:$XGRAPH:$NS:$NAM
+
+- Source
+::
+
+  source ~/.bashrc
+
+- check ns-ver
+::
+  ns
+  ns-ver
+
+.. image:: images/ns6.png
+
+- Download and run simple script from http://nile.wpi.edu/NS/Example/ns-simple.tcl
+::
+
+  ns ns-simple.tcl
+
+.. image:: images/ns7.png
+ 
+
+
+
 
 
 
