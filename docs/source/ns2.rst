@@ -498,6 +498,27 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 .. image:: images/ns8.png
 
+- Patch for NAM [2]
+::
+
+  cd /home/cnc/ns-allinone-2.31/tk8.4.14
+
+- Create a document
+::
+
+  nano tk-8.4-lastevent.patch
+
+- Patch for NAM from https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-lang/tk/files/tk-8.4-lastevent.patch?revision=1.1. Paste and save the code below to tk-8.4-lastevent.patch that we just created
+
+.. image:: images/ns232tk.png   
+  
+- To apply the patch
+::
+
+  patch -p0 < ./tk-8.4-lastevent.patch
+
+.. image:: images/nampatch232.png
+
 - Move to ns2 directory
 ::
   
