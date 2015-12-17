@@ -253,13 +253,17 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 .. image:: images/ns8.png
 
-- Patch for NAM
+- Patch for NAM [2]
 ::
 
   cd /home/cnc/ns-allinone-2.33/tk8.4.18
 
+- Create a document
+::
 
-- Patch for NAM from https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-lang/tk/files/tk-8.4-lastevent.patch?revision=1.1
+  nano tk-8.4-lastevent.patch
+
+- Patch for NAM from https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-lang/tk/files/tk-8.4-lastevent.patch?revision=1.1. Paste and save the code below to tk-8.4-lastevent.patch that we just created
 ::
 
   Source: Jeffrey Gardner (je_fro) <jeffrey.e.gardner@comcast.net> - http://overlays.gentoo.org/dev/je_fro/browser/dev-lang/tk/files/tk-8.4-lastevent.patch
@@ -291,6 +295,12 @@ Reason: Fix ABI incompatibility introduced by x11-proto/xproto-7.0.13 (bug #2259
  
  /*
   
+- To apply the patch
+::
+
+  patch -p0 < ./tk-8.4-lastevent.patch
+
+.. image:: images/nampatch.png
 
 - Move to ns2 directory
 ::
@@ -353,6 +363,8 @@ Reason: Fix ABI incompatibility introduced by x11-proto/xproto-7.0.13 (bug #2259
 ::
 
   ns ns-simple.tcl
+
+.. image:: images/ns233nam.png
 
 
 **4. NS 2.32**
