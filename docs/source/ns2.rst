@@ -457,7 +457,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
   ns ns-simple.tcl
 
-.. image:: images/ns234nam.png
+.. image:: images/ns232nam.png
 
 
 **5. NS 2.31**
