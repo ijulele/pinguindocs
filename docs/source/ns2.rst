@@ -4,7 +4,7 @@ Network Simulator 2 Installation (NS2)
 .. sidebar:: Documented by :
 
      * **Code Name**    : NDA
-     * **Date** 	: 12/17/2015
+     * **Date** 	: 12/18/2015
      * **Mail** 	: naufal.itt@gmail.com
 
 Ns is a discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.[1] 
