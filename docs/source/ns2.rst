@@ -535,7 +535,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
   USR_LIB=/usr/lib
   export TCL_LIBRARY=$TCL_LIB:$USR_LIB
   # PATH
-  XGRAPH=/home/cnc/ns-allinone-2.34/bin:/home/cnc/ns-allinone-2.31/tcl8.4.14/unix:/home/cnc/ns-allinone-2.31/tk8.4.14/unix
+  XGRAPH=/home/cnc/ns-allinone-2.31/bin:/home/cnc/ns-allinone-2.31/tcl8.4.14/unix:/home/cnc/ns-allinone-2.31/tk8.4.14/unix
   NS=/home/cnc/ns-allinone-2.31/ns-2.31/
   NAM=/home/cnc/ns-allinone-2.31/nam-1.13/
   PATH=$PATH:$XGRAPH:$NS:$NAM
