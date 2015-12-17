@@ -61,7 +61,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 - When the installation succed it will be like this
 
-.. image:: images/ns3/png
+.. image:: images/ns3.png
 
 - Edit bashrc
 ::
