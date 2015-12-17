@@ -253,6 +253,12 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 .. image:: images/ns8.png
 
+- Patch for NAM
+::
+
+  cd /home/cnc/ns-allinone-2.33/tk8.4.18
+
+
 - Patch for NAM from https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-lang/tk/files/tk-8.4-lastevent.patch?revision=1.1
 ::
 
