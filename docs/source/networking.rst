@@ -31,5 +31,3 @@ This section contain networking documents
    vlan
    mpls
 
-  TEST
-  ====
