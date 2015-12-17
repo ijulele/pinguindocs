@@ -60,12 +60,15 @@ After we make sure that they can ping each other, now we make configuration on s
 ::
 
 	Switch# conf
+	Switch(config)# int f2/1
+	Switch(config-if)# switchport mode access
+	Switch(config-if)# switchport access vlan 2
 
 - Create VLAN 2 (becasue VLAN 1 already created by default)
 ::
 
-   Switch(config)# VLAN 2 
-   ASD# SD
+   	Switch(config)# VLAN 2 
+   	ASD# SD
 
 - Name your VLAN 2
 ::
