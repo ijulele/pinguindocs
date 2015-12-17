@@ -157,8 +157,6 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
   
   cd /home/cnc/ns-allinone-2.34 
 
-.. image:: images/ns5.png
-
 .. note::
 
     Check your own path, in this documentation we use /home/cnc/ 
@@ -229,6 +227,94 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 ::
 
       apt-get update	
+
+- Extract the tar.gz file
+::
+
+  tar -xvf ns-allinone-2.33.tar.gz 
+
+.. note::
+
+    Check the directory which ns-allinone-2.33.tar.gz downloaded 
+
+- Install packages
+::
+
+  sudo apt-get install build-essential autoconf automake libxmu-dev
+
+.. image:: images/ns2.png
+
+- Open file in otcl-1.13/configure
+::
+
+  nano +5518 /home/cnc/ns-allinone-2.33/otcl-1.13/configure
+
+- Replace SHLIB_LD="ld -shared" into SHLIB_LD="gcc -shared"
+
+.. image:: images/ns8.png
+
+- Move to ns2 directory
+::
+  
+  cd /home/cnc/ns-allinone-2.33 
+
+
+.. note::
+
+    Check your own path, in this documentation we use /home/cnc/ 
+
+- Install ns2
+::
+
+  ./install
+
+- When the installation succed it will be like this
+
+.. image:: images/ns233.png
+
+- Edit bashrc
+::
+
+  nano ~/.bashrc
+
+- Add this to bashrc
+::
+
+  # LD_LIBRARY_PATH
+  OTCL_LIB=/home/cnc/ns-allinone-2.33/otcl-1.13
+  NS2_LIB=/home/cnc/ns-allinone-2.33/lib
+  X11_LIB=/usr/X11R6/lib
+  USR_LOCAL_LIB=/usr/local/lib
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$OTCL_LIB:$NS2_LIB:$X11_LIB:$USR_LOCAL_LIB
+  # TCL_LIBRARY
+  TCL_LIB=/home/cnc/ns-allinone-2.33/tcl8.4.18/library
+  USR_LIB=/usr/lib
+  export TCL_LIBRARY=$TCL_LIB:$USR_LIB
+  # PATH
+  XGRAPH=/home/cnc/ns-allinone-2.33/bin:/home/cnc/ns-allinone-2.33/tcl8.4.18/unix:/home/cnc/ns-allinone-2.33/tk8.4.18/unix
+  NS=/home/cnc/ns-allinone-2.33/ns-2.33/
+  NAM=/home/cnc/ns-allinone-2.33/nam-1.13/
+  PATH=$PATH:$XGRAPH:$NS:$NAM
+
+- Source
+::
+
+  source ~/.bashrc
+
+- check ns-ver
+::
+
+  ns
+
+  ns-ver
+
+.. image:: images/ns234ver.png
+
+- Download and run simple script from http://nile.wpi.edu/NS/Example/ns-simple.tcl
+::
+
+  ns ns-simple.tcl
+
 
 **4. NS 2.32**
 *************
