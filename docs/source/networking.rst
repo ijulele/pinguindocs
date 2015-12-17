@@ -11,6 +11,10 @@ This section contain networking documents
     :width: 200px
     :height: 400px
 
+.. image:: /images/spcnetwork2014.jpg
+    :width: 200px
+    :height: 400px
+
 .. toctree::
    :maxdepth: 20
    :hidden:
