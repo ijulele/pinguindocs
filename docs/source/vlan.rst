@@ -49,21 +49,17 @@ After we make sure that they can ping each other, now we make configuration on s
 ::
 
 	Switch> en
-.. image:: 
+
 
 - Configuration mode
 ::
 
 	Switch# conf
-	S
-	S
 
 - Create VLAN 2 (becasue VLAN 1 already created by default)
 ::
 
-	Switch(config)# VLAN 2
-
-	
+	**Switch(config)# VLAN 2**
 
 - Name your VLAN 2
 ::
