@@ -24,19 +24,23 @@ Set PC ip address to :
 
 
 PC0 ip address
+
 .. image:: images/pc0.png
 
 
 
 PC1 ip address
+
 .. image:: images/pc1.png
 
 
 PC2 ip address
+
 .. image:: images/pc2.png
 
 
 PC3 ip address
+
 .. image:: images/pc3.png
 
 - Do ping to check reachability
@@ -60,7 +64,7 @@ After we make sure that they can ping each other, now we make configuration on s
 - Create VLAN 2 (becasue VLAN 1 already created by default)
 ::
 
-Switch(config)# VLAN 2
+   Switch(config)# VLAN 2 
 
 - Name your VLAN 2
 ::
