@@ -14,7 +14,7 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 
 **1. NS 2.35**
-*************
+**************
 
 - Root access
 ::
@@ -459,7 +459,12 @@ In this documentation we use Ubuntu 10.04 32bit as operating system. You can dow
 
 .. image:: images/ns232nam.png
 
+.. sidebar:: Documented by :
 
+     * **Code Name**    : NDA
+     * **Date**   : 12/18/2016
+     * **Mail**   : naufal.itt@gmail.com
+     
 **5. NS 2.31**
 *************
 
