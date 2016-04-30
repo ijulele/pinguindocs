@@ -30,4 +30,5 @@ This section contain networking documents
    multicast
    vlan
    mpls
+   juniper
 
