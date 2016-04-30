@@ -19,16 +19,7 @@ This section contain networking documents
    :maxdepth: 20
    :hidden:
 
-   basicospf
    ns2
-   dhcp
-   rip
-   static
-   hsrp
-   vrrp
-   glbp
-   multicast
-   vlan
-   mpls
+   cisco
    juniper
 
