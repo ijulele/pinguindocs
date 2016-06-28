@@ -1,5 +1,5 @@
 
-**CnC Documentation**
+**Documentation**
 =====================
 
 .. sidebar:: About
