@@ -1,9 +1,6 @@
 Subnetting
 ==========
 
-Tips
-----
-
 - What you need to remember 
 ::
 
