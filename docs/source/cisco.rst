@@ -2,12 +2,12 @@ CISCO
 =====
 
 .. toctree::
-   :maxdepth: 20
+   :maxdepth: 30
    :hidden:
    
-   subnetting
    basicospf
    dhcp
+   subnetting
    rip
    static
    hsrp
