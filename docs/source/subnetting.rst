@@ -47,6 +47,7 @@ Tips
 
 - Answer for 10.10.10.50/30
 ::
+
     /30 = 4
     /30 located in C
     1. How many IP in subnet ? 4
