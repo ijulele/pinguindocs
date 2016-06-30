@@ -1,20 +1,11 @@
 Subnetting
 ==========
 
-.. sidebar:: Documented by :
-
-     * **Code Name**    : NDA
-     * **Date** 	: 12/17/2015
-     * **Mail** 	: naufal.itt@gmail.com
-
-
-
-
 Tips
 ----
+::
 
-- What you need to remember:
-
+- What you need to remember 
     /24 = 256
     /25 = 128
     /26 = 64
@@ -25,22 +16,26 @@ Tips
     /31 = 2
     /32 = 1
 
+- Location
+::
 
-- A = /8 - /15
+  A = /8 - /15
   12345678.XXXXXXXX.12345678.12345678
 
-- B = /16 - /23
+  B = /16 - /23
   12345678.12345678.XXXXXXX.12345678
 
-- C = /24 - /32
+  C = /24 - /32
   12345678.12345678.12345678.XXXXXXXX
 
 
-IP
-10.10.10.50/30
-20.20.20.50/28
-30.30.30.30/19
-40.40.40.40/13
+- IP
+::
+
+    10.10.10.50/30
+    20.20.20.50/28
+    30.30.30.30/19
+    40.40.40.40/13
 
 Question 
 1. How many IP in subnet ?
@@ -62,3 +57,6 @@ Question
     IP Network = 10.10.10.48
     IP Broadcast = 10.10.10.51
     IP Host = 10.10.10.48 - 10.10.10.50
+    
+**Sources :**
+ * ID-Networkers
