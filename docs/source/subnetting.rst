@@ -1,3 +1,13 @@
+Subnetting
+==========
+
+.. sidebar:: Documented by :
+
+     * **Code Name**    : NDA
+     * **Date** 	: 12/17/2015
+     * **Mail** 	: naufal.itt@gmail.com
+
+
 What you need to remember 
 /24 = 256
 /25 = 128
