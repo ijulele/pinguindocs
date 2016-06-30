@@ -5,9 +5,9 @@ CISCO
    :maxdepth: 30
    :hidden:
    
+   subnetting
    basicospf
    dhcp
-   subnetting
    rip
    static
    hsrp
