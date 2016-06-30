@@ -3,9 +3,10 @@ Subnetting
 
 Tips
 ----
-::
 
 - What you need to remember 
+::
+
     /24 = 256
     /25 = 128
     /26 = 64
@@ -37,17 +38,20 @@ Tips
     30.30.30.30/19
     40.40.40.40/13
 
-Question 
-1. How many IP in subnet ?
-2. Subnet Mask ?
-3. IP Network, Broadcast, and Range IP Host ?
+- Question
+::
 
-10.10.10.50/30
-/30 = 4
-/30 located in C
-1. How many IP in subnet ? 4
-2. Subnet Mask ? 256 - 4 = 255.255.255.252
-3. IP Network & Broadcast 
+    1. How many IP in subnet ?
+    2. Subnet Mask ?
+    3. IP Network, Broadcast, and Range IP Host ?
+
+- Answer for 10.10.10.50/30
+::
+    /30 = 4
+    /30 located in C
+    1. How many IP in subnet ? 4
+    2. Subnet Mask ? 256 - 4 = 255.255.255.252
+    3. IP Network & Broadcast 
     /30 = 4
     0 - 3
     4 - 7
