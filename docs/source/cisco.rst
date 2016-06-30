@@ -4,7 +4,8 @@ CISCO
 .. toctree::
    :maxdepth: 20
    :hidden:
-
+   
+   subnetting
    basicospf
    dhcp
    rip
@@ -15,4 +16,4 @@ CISCO
    multicast
    vlan
    mpls
-   subnetting
+   
