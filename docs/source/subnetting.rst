@@ -7,10 +7,14 @@ Subnetting
      * **Date** 	: 12/17/2015
      * **Mail** 	: naufal.itt@gmail.com
 
+
+
+
 Tips
 ----
 
-- What you need to remember 
+- What you need to remember:
+
     /24 = 256
     /25 = 128
     /26 = 64
