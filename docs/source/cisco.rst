@@ -13,7 +13,6 @@ CISCO
    hsrp
    vrrp
    glbp
-   multicast
    vlan
    mpls
    
