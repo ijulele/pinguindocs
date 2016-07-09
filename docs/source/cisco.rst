@@ -6,6 +6,7 @@ CISCO
    :hidden:
    
    subnetting
+   eigrp1
    basicospf
    dhcp
    rip

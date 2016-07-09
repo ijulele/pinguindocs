@@ -2,7 +2,8 @@ EIGRP - network advertise with wildcard
 =======================================
 
 TOPOLOGY
-.. image:: /images/eigrp.PNG
+
+.. image:: /images/eigrp.png
     :width: 200px
     :height: 400px
 
